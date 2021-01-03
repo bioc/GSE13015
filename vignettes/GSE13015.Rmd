@@ -1,0 +1,30 @@
+---
+title: "Expression data from GSE13015 using Bioconductor's ExperimentHub"
+author: "Darawan Rinchai"
+date: "`r doc_date()`"
+vignette: >
+  %\VignetteIndexEntry{Expression data from GSE13015 using Bioconductor's ExperimentHub}
+  %\VignetteEngine{knitr::rmarkdown}
+output: 
+  BiocStyle::html_document
+---
+
+# Normalized expression data from GSE13015 
+Microaray expression matrix platform GPL6106 and clinical data for 67 septicemic patients and made them available as GEO accession [GSE13015](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13015). GSE13015 data have been parsed into a SummarizedExperiment object available in ExperimentHub
+can be used for Differential Expression Analysis, Modular repertiore analysis.
+
+In the below example, we show how one can download this dataset from 
+ExperimentHub.
+
+```{r get-expression matrix}
+library(ExperimentHub)
+dat = ExperimentHub()
+query(dat , "GSE13015")
+data_matrix <- dat[[1]]
+```
+
+# sessionInfo()
+
+```{r sessionInfo}
+sessionInfo()
+```
