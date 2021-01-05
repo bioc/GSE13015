@@ -4,7 +4,7 @@ Description: Microarray expression matrix platform GPL6106 and clinical data for
 Version: 0.99.0
 Author: Darawan Rinchai
 Maintainer: Darawan Rinchai <drinchai@gmail.com>
-biocViews: GeneExpression
+biocViews: GeneExpression, ExperimentData
 Depends: Biobase, GEOquery
 Imports:
     preprocessCore,
