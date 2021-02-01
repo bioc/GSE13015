@@ -9,7 +9,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "drinchai@gmail.com",
            comment = c(ORCID = "0000-0001-8851-7730"))
-biocViews: GeneExpression, ExperimentData
+biocViews: ExperimentData
 Depends: GEOquery
 Imports:
     preprocessCore,
