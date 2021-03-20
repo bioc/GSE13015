@@ -9,7 +9,7 @@ meta <- data.frame(
                          "for 67 septicemic patients, represented as an ",
                          "SummarizedExperiment R data representation derived from ",
                          "GEO accession GSE13015, GPL6106."),
-  BiocVersion = "3.8",
+  BiocVersion = "3.13",
   Genome = "hg19",
   SourceType = "tar.gz",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13015",
