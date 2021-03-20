@@ -4,11 +4,10 @@
 ###
 
 meta <- data.frame(
-  Title = paste0("Microaray expression matrix and clinical data for 67 septicemic",
-                   "patients from GEO"),
+  Title = "GSE13015_GPL6106_Microaray_SEPSIS",
   Description = paste0("Microarray expression data",
                          "for 67 septicemic patients, represented as an ",
-                         "ExpressionSet. R data representation derived from ",
+                         "SummarizedExperiment R data representation derived from ",
                          "GEO accession GSE13015, GPL6106."),
   BiocVersion = "3.8",
   Genome = "hg19",
@@ -20,9 +19,9 @@ meta <- data.frame(
   Coordinate_1_based = NA,
   DataProvider = "GEO",
   Maintainer = "Darawan Rinchai <drinchai@gmail.com>",
-  RDataClass = c("ExpressionSet", "SummarizedExperiment"),
+  RDataClass = "SummarizedExperiment",
   DispatchClass = "Rda",
-  RDataPath = "GSE13015_GPL6106/GSE13015_GPL6106.Rda" ,
+  RDataPath = "GSE13015/GSE13015_GPL6106_SummarizedExperiment.Rda" ,
   Tags = "",
   Notes = "Example data for BloodGen3Module Package"
 )

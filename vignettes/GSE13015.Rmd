@@ -19,8 +19,9 @@ ExperimentHub.
 ```{r get-expression matrix}
 library(ExperimentHub)
 dat = ExperimentHub()
-query(dat , "GSE13015")
-data_matrix <- dat[[1]]
+res = query(dat , "GSE13015")
+data_matrix <- res[[1]]
+
 ```
 
 # sessionInfo()

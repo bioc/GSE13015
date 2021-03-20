@@ -8,7 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "drinchai@gmail.com",
            comment = c(ORCID = "0000-0001-8851-7730"))
-biocViews: ExperimentData, MicroarrayData
+biocViews: ExperimentData, MicroarrayData,ExperimemtHub
 Depends: Biobase, GEOquery
 Imports:
     preprocessCore,
@@ -20,7 +20,7 @@ Suggests:
     knitr,
     BiocStyle,
     rmarkdown
-License: Artistic-2.0
+License: MIT License
 VignetteBuilder: knitr
 NeedsCompilation: no
 RoxygenNote: 7.1.0
