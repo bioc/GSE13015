@@ -13,7 +13,7 @@ meta <- data.frame(
   Genome = "hg19",
   SourceType = "tar.gz",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13015",
-  SourceVersion = "Jul 1, 2009",
+  SourceVersion = "Jul 1 2009",
   Species = "Homo sapiens",
   TaxonomyId = NA,
   Coordinate_1_based = NA,
