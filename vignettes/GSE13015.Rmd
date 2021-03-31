@@ -21,8 +21,6 @@ library(ExperimentHub)
 dat = ExperimentHub()
 hub = query(dat , "GSE13015")
 temp = hub[["EH5429"]]
-data_matrix = assay(temp)
-sample_info = data.frame(colData(temp))
 
 ```
 
