@@ -20,7 +20,7 @@ Suggests:
     knitr,
     BiocStyle,
     rmarkdown
-License: MIT License
+License: Artistic-2.0
 VignetteBuilder: knitr
 NeedsCompilation: no
 RoxygenNote: 7.1.0
